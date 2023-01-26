@@ -1,0 +1,4 @@
+#!/bin/sh
+(
+  xvfb-run -a $V3D $@
+)
